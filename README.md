@@ -8,7 +8,7 @@ marker state for you. It provides one liner function calls for (un)setting the m
 on an item object or data point x and y coordinates so there's no need to keep track 
 of which points are marked.
 
-# Options: #
+### Options: ###
 The plugin supports the following default options:
 
 	marker: {
@@ -20,11 +20,12 @@ The marker object represents the default settings for the whole plot or series b
 overriden by passing the marker options to the setMarker function as arguments when setting 
 a marker for a specific data point, see the usage section for details on how to use it.
 
-	color: the default is "rgba(0, 0, 0, 0.80)"
-	alignment: the default is to draw a triangular pointer surrounding all sides of the
+  - color: the default is "rgba(0, 0, 0, 0.80)"
+  - alignment: the default is to draw a triangular pointer surrounding all sides of the
 		data point but you can provide any combination of 'top', 'left', 'right',
 		'bottom' in an array to draw these specific pointers only.
 
+### Methods ###
 The plugin also adds two public methods:
 
   - setMarker(item, '#000', ['left', 'right']);
